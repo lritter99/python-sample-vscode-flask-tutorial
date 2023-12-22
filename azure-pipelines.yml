@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: Self-Hosted Pipeline
+pool:
+  name: default
 strategy:
   matrix:
     Python37:
